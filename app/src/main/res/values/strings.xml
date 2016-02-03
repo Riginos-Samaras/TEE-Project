@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="action_settings">Settings</string>
+    <string name="daemon_service_started">Daemon Service Started</string>
+    <string name="daemon_service_stoped">Daemon Service Stoped</string>
+    <string name="daemon_service_label">ReCRED Daemon</string>
+    <string name="daemon_service_connected">Daemon Service Connected</string>
+    <string name="daemon_service_disconnected">Daemon Service Disconnected</string>
+    <string name="daemon_service_start_command_message">Start Command Initiated</string>
+    <string name="sending_photo_to_server">Sending photo to server</string>
 </resources>

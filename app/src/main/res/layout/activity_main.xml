@@ -4,8 +4,44 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="photo"></Button>
-    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/icon" android:layout_width="wrap_content"></ImageView>
-    <ImageView android:id="@+id/imageView2" android:layout_height="wrap_content" android:src="@drawable/icon" android:layout_width="wrap_content"></ImageView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="photo"
+            android:contextClickable="false"></Button>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnSubmit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hack"
+            android:id="@+id/btnHack"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView android:id="@+id/imageView1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:src="@drawable/recred"></ImageView>
+    </FrameLayout>
+
 
 </LinearLayout>
